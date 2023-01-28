@@ -1,0 +1,52 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Good to see you again, how can i be of help", "Hi there, how can I help?" , "Hello! How are you today?" , "Hi there! It's nice to see you." , "Good [morning/afternoon/evening]! How can I help you today?" , "What's up? Is there something you'd like to chat about?" , "Hey! How's your day going so far?" , "Hi there! How's your day going?" , "Good [morning/afternoon/evening]! What's new?" ,  "Hello! Is there anything specific you'd like to talk about today?" , "Hey! It's great to see you. How can I assist you?"],
+         "context": [""]
+        },
+
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.","Goodbye for now! I look forward to speaking with you again soon.","Bye! It was nice talking to you. See you soon!", "Farewell! I hope you have a wonderful [day/evening/weekend]." , "See you later! Have a great day."],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered", "What are my options", "What are my choices"],
+         "responses": ["I can guide you through booking an appointment", "reschedule appointment,", "delete appointment", "cancel appointment", "I can help you with booking an appointment", "I can help you with rescheduling an appointment", "I can help you with deleting an appointment", "The best option is to be referred to a doctor"],
+         "context": [""]
+        },
+
+
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Thanks for the help", "Thanks for the support", "Thanks for the assistance", "Thanks for the guidance", "Thanks for the advice", "Thanks for the information",  "Thanks for the support", "Thanks for the assistance", "Thanks for the guidance"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "Glad I could help", "No problem, happy to help!"],
+         "context": [""]
+        },
+
+        {"tag": "sick",
+         "patterns": ["i feel sick", "i am sick", "i am not feeling too well", "i am not well", "I am not feeling great"],
+         "responses": ["Okay. can you tell me what's wrong? what are your symptoms?"],
+         "context": [""]
+        },
+        {"tag": "fever",
+         "patterns": ["i have temperature", "my body temperature has raised", "i am sweating", "i have headache"],
+         "responses": ["This is a symptom of fever, you should take a tablet of ibuprofen or tylenol after you have your meal."],
+         "context": [""]
+        },
+
+
+        {"tag": "appointment",
+         "patterns": ["can i see a doctor", "when is the nurse available", "what dates are available"],
+         "responses": ["These are the available date :    Next day, within 7 days, within next 14 days"],
+         "context": [""]
+        },
+         {"tag": "next",
+         "patterns": ["nextday", "tomorrow", "next week", "next month", "next year"],
+         "responses": ["Sure we would book you in and send you a confirmation email for tomorrow", "That's great, we'll book you in for tomorrow", "ok, great!!!, see you tomorrow", "Great, we'll book you in for tomorrow", "Sure, we'll book you in for tomorrow" ],
+         "context": [""]
+        }
+
+
+
+   ]
+}
